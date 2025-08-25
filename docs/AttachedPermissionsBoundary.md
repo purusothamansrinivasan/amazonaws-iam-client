@@ -1,0 +1,15 @@
+
+
+# AttachedPermissionsBoundary
+
+<p>Contains information about an attached permissions boundary.</p> <p>An attached permissions boundary is a managed policy that has been attached to a user or role to set the permissions boundary.</p> <p>For more information about permissions boundaries, see <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html\">Permissions boundaries for IAM identities </a> in the <i>IAM User Guide</i>.</p>
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**permissionsBoundaryType** | **PermissionsBoundaryAttachmentType** |  The permissions boundary usage type that indicates what type of IAM resource is used as the permissions boundary for an entity. This data type can only have a value of &lt;code&gt;Policy&lt;/code&gt;. |  [optional] |
+|**permissionsBoundaryArn** | **String** |  The ARN of the policy used to set the permissions boundary for the user or role. |  [optional] |
+
+
+
